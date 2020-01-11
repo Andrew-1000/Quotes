@@ -15,7 +15,7 @@ export class QuoteComponent implements OnInit {
     new Quote(3, 'Che Guevara', '“Every day People straighten up the hair, why not the heart?', 'Andres', new Date(2019, 2,13)),
   ];
 
-  showDescription=false;
+  // showDescription=false;
 
   addNewQuote(quote) {
     let quoteLength = this.quotes.length;
@@ -30,7 +30,7 @@ export class QuoteComponent implements OnInit {
 
   deleteQuote(isComplete, index) {
     if (isComplete) {
-      let toDelete = confirm(`Do you want to delete this Quote? ${this.quotes[index].name}`)//alert
+      let toDelete = confirm(`Are you sure want to delete this quote by ${this.quotes[index].name}?`)//alert
 
       if (toDelete) { this.quotes.splice(index, 1) }//removes quote
     }

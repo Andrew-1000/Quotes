@@ -6,7 +6,7 @@
         <h5 for="name">Authors Name</h5>
         <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
         <div [hidden]="name.valid || name.pristine" class="alert alert-warning">
-          <p>Please add original author's name</p>
+          <p>Please provide the original author's name</p>
         </div>
       </div>
       <!-- quote itself -->

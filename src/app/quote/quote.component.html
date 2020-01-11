@@ -26,12 +26,8 @@
             <div class="card-title">
               <h5 font color="yellow" *ngIf="showDescription">{{quote.name}}</h5>
             </div>
-            <!--structural directive set to the boolean property show description -->
-            <button type="button" (click)="toggleQuote()" class="btn btn-primary">{{showDescription? "Hide": "Show"}}
-              Quote Details</button>
-            <!-- click triggers event binding by calling the toggle fxn method -->
-            <!-- toggles the value in the show description property and dynamically alter text on the button -->
-            <!-- if true it shows the description -->
+            <button (click)="toggleQuote(i)" class="btn btn-primary">{{showDescription? "Hide": "Show"}} Quote Details</button>
+            
             <div class="card-body" id="ppp">
               <p id="{{i}}" appHighlight>{{quote.description}}</p>
             </div>

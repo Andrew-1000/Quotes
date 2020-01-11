@@ -1,5 +1,5 @@
 export class Quote {
-  showDescription = false;
+  showDescription: boolean;
 
   constructor (
     public id: number,
@@ -7,6 +7,8 @@ export class Quote {
     public description: string,
     public submitter: string,
     public completeDate: Date){
+
+      this.showDescription = false;
       
     }
   }

@@ -1,6 +1,6 @@
 .jumbotron {
-  align-content: bottom;
-  text-align: bottom;
+  align-content: center;
+  text-align: center;
   background-color: rgba(20, 187, 209, 0.774);
   color: rgba(3, 4, 36, 0.897);
   margin-bottom: 0;
@@ -17,6 +17,8 @@ h3 {
   margin-right: auto;
   margin-left: auto;
   border-radius: 10px;
+  text-align: center;
+  align-content: center;
 }
 
 #two {

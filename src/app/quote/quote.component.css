@@ -21,8 +21,14 @@ h3 {
   align-content: center;
 }
 
+.tim {
+  align-content: right;
+  text-align: right;
+  font-size: 15px;
+}
+
 #two {
-  background-color: rgba(135, 207, 235, 0.5);
+  background-color: rgba(4, 20, 26, 0.5);
 }
 
 #lol {
@@ -30,7 +36,7 @@ h3 {
 }
 
 #cre {
-  color: rgb(138, 130, 130);
+  color: rgb(241, 241, 241);
 }
 
 #crd {
@@ -70,7 +76,7 @@ h3 {
   text-align: center;
   /* background-image: url('/assets/free.jpg'); */
   color: black;
-  background-color: rgba(64, 96, 104, 0.644);
+  background-color: rgba(117, 150, 155, 0.644);
   font-size: 16px;
 
 }

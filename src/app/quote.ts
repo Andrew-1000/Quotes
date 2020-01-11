@@ -8,7 +8,7 @@ export class Quote {
     public submitter: string,
     public completeDate: Date){
 
-      this.showDescription = false;
+      this.showDescription=false;
       
     }
   }

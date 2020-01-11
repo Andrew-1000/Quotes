@@ -18,13 +18,17 @@
   align-items: center;
   
 }
+h1{
+  margin-top: 10px;
+  background-color: rgba(120, 177, 224, 0.609);
+}
 
 svg#clouds {
   position: fixed;
   bottom: -160px;
-  left: -230px;
+  
   z-index: -10;
-  width: 1920px;
+ 
 }
 
 

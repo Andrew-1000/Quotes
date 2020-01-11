@@ -8,19 +8,24 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
 
-  quotes :Quote[] =[
+  quotes: Quote[] = [
     new Quote(1, 'Nelson Mandela', 'There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living.', 'alex', new Date(2021, 5, 10)),
-    new Quote(2, 'Mohandas Gandhi', 'Strength does not come from physical capacity. It comes from an indomitable will.', 'Chan', new Date(1950, 3, 23)),
-    new Quote(3, 'Rick Flores', 'We have to come for them before they come for us, it is that simple', 'McCain', new Date(2012, 8, 17)),
+    new Quote(2, 'Joaquin', 'When we are good, nobody remembers us. When we are bad, nobody forgets us.', 'Chan', new Date(1950, 3, 23)),
+    new Quote(4, 'Elchapo', 'Never regret! If it was something good, it was incredible. If it was something bad, it was an experience.', 'Good Reads', new Date(2016, 1,17)),
+    new Quote(3, 'Che Guevara', '“Every day People straighten up the hair, why not the heart?', 'Andres', new Date(2019, 2,13)),
   ];
 
-  showDescription = false;
+  showDescription=false;
 
   addNewQuote(quote) {
     let quoteLength = this.quotes.length;
     quote.id = quoteLength + 1;
     quote.completeDate = new Date(quote.completeDate)
     this.quotes.push(quote)
+  }
+
+  toggleQuotes(index){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
 
   deleteQuote(isComplete, index) {
@@ -37,13 +42,11 @@ export class QuoteComponent implements OnInit {
     }
   }
 
-  toggleQuote() {
-    this.showDescription = !this.showDescription;//show or hide content
-  }
-
-  // toggleQuotes(index){
-  //   this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  // toggleQuote() {
+  //   this.showDescription = !this.showDescription;//show or hide content
   // }
+
+  
  
 
   constructor() { }

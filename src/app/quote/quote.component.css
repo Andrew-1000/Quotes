@@ -1,15 +1,26 @@
 .jumbotron {
-  align-content: center;
-  text-align: center;
-  background-image: url('/assets/brat.jpg');
-  color: yellow;
+  align-content: bottom;
+  text-align: bottom;
+  background-color: rgba(20, 187, 209, 0.774);
+  color: rgba(3, 4, 36, 0.897);
   margin-bottom: 0;
   font-size: 50px;
+}
+h3 {
+  margin-top: 15px;
+}
 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
 }
 
 #two {
-  background-image: url('/assets/huh.jpg');
+  background-color: rgba(135, 207, 235, 0.5);
 }
 
 #lol {
@@ -17,20 +28,25 @@
 }
 
 #cre {
-  color: yellow;
+  color: rgb(138, 130, 130);
 }
 
 #crd {
+
   border: 1px;
   border-style: outset;
   width: 800px;
   margin-bottom: 10px;
-  font-style: italic;
-  /* color: yellow; */
+  margin-left: 10px;
+  font-style: normal;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.45em;
 }
 
+
 #small {
-  font-variant: small-caps;
+  font-variant: normal;
   font-size: 13px;
   align-content: space-around;
 }
@@ -50,8 +66,9 @@
 #one {
   align-content: center;
   text-align: center;
-  background-image: url('/assets/free.jpg');
-  color: yellow;
+  /* background-image: url('/assets/free.jpg'); */
+  color: black;
+  background-color: rgba(64, 96, 104, 0.644);
   font-size: 16px;
 
 }
@@ -62,10 +79,9 @@
   border: none;
   color: white;
   width: 150px;
-  font-variant: small-caps;
+  font-variant: normal;
   font-size: 13px;
+  margin-bottom: 10px;
 }
 
-/* #thee {
-  margin-left: 61px;
-  margin-right: 0px */
+

@@ -1,27 +1,31 @@
-# Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+## Description
 
-## Development server
+The Quotes project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21. It's main objective is to allow users provide quotes that were said by people who ever lived.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Project Setup Instructions
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Get to the project repo in github on this link `https://github.com/Andrew-1000/quotes` 
+2. Fork the project using the Fork icon on the top right
+3. Navigate to your repo and it will be listed there
+4. Clone to your suitable location in the local pc and there you have it.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+After making the necessary changes to the project run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Development server
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `ng serve` for a dev server. This will allow one to run the project on a local pc using the loop back address 127.0.0.1 or otherwise refered to as localhost. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Link to the live page hosted on github
+
+`https://andrew-1000.github.io/quotes`
+
+## Author Name
+
+Andrew Ambia

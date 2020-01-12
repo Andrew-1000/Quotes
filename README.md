@@ -6,7 +6,7 @@ The Quotes project was generated with [Angular CLI](https://github.com/angular/a
 
 ## Project Setup Instructions
 
-1. Get to the project repo in github on this link `https://github.com/Andrew-1000/quotes` 
+1. Get to the project repo in github on this link https://github.com/Andrew-1000/quotes 
 2. Fork the project using the Fork icon on the top right
 3. Navigate to your repo and it will be listed there
 4. Clone to your suitable location in the local pc and there you have it.
@@ -24,7 +24,7 @@ Run `ng serve` for a dev server. This will allow one to run the project on a loc
 
 ## Link to the live page hosted on github
 
-`https://andrew-1000.github.io/quotes`
+https://andrew-1000.github.io/quotes
 
 ## Author Name
 

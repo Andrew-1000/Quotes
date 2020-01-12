@@ -26,6 +26,7 @@ Run `ng serve` for a dev server. This will allow one to run the project on a loc
 
 https://andrew-1000.github.io/quotes
 
+
 ## Copyright & License
 
 MIT License
